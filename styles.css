@@ -18,11 +18,11 @@
     width: 180px;
     border: 1px solid black;
     border-radius: .5rem;
-    margin: 2.5rem;
+    margin: 1.8rem;
     box-shadow: 0px 4px 12px red;
     backface-visibility: visible;
-    transform-origin: 50% 50%;
-    transform: perspective(500px) rotateY(0deg) rotate3d(1, 0, 0, 50deg);
+    transform-origin: 50% 80%;
+    transform: perspective(500px) rotateY(0deg) rotate3d(1, 0, 0, 50deg) translate3d(0px, 0px, -15px);
     transition: all .5s ease-in-out;
 }
 
@@ -41,4 +41,8 @@
 
 .n03{
     background: url('https://cdn.normacomics.com/media/catalog/product/cache/1/image/588x473/9df78eab33525d08d6e5fb8d27136e95/d/e/death_metal_4.jpg') center/cover;
+}
+
+.n04{
+    background: url('https://cdn.normacomics.com/media/catalog/product/cache/1/image/588x473/9df78eab33525d08d6e5fb8d27136e95/t/i/titanes_33.jpeg') center/cover;
 }
