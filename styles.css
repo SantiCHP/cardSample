@@ -16,6 +16,9 @@
 .cards {
     height: 300px;
     width: 180px;
+    display: flex;
+    align-items: flex-end;
+    align-self: flex-end;
     border: 1px solid black;
     border-radius: .5rem;
     margin: 1.8rem;
@@ -45,4 +48,8 @@
 
 .n04{
     background: url('https://cdn.normacomics.com/media/catalog/product/cache/1/image/588x473/9df78eab33525d08d6e5fb8d27136e95/t/i/titanes_33.jpeg') center/cover;
+}
+
+.modal-body div{
+    overflow: hidden;
 }
